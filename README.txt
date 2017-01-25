@@ -25,13 +25,14 @@ To build this code, copy this entire Git repository. Then do the following:
 autoreconf --install
 ./configure
 make
+make install (to locally execute the program)
 
 To run the unit tests:
 make check
 
 
 The program also supports command line arguments which to pass inputs to and invoke the library functions.
-The format to run rom command line(after make is successful) is:
+The format to run from command line(after make is successful) is:
 
  <executable_name> <roman_numeral_1> < +/-> <roman_numeral_2>    (Eg: romancalc V + III)
 
