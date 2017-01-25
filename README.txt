@@ -1,6 +1,6 @@
 ABOUT THIS LIBRARY:
 
-This is an implementation of a library which will allow the addition and subtraction of Roman numerals.
+This is an implementation of a library to support Roman numeral calculations.
 
 The library provides the following functions for addition and subtraction of roman numerals respectively:
 roman_add(const char*, const char*) and roman_subtract(const char*, const char*), both of which return pointers to the resultant roman numeral string.
@@ -31,10 +31,10 @@ To run the unit tests:
 make check
 
 
-The program also supports command line arguments which to pass inputs to and invoke the library functions.
+The program also supports command line arguments to pass inputs to and invoke the library functions.
 The format to run from command line(after make is successful) is:
 
- <executable_name> <roman_numeral_1> < +/-> <roman_numeral_2>    (Eg: romancalc V + III)
+ <executable_name> <roman_numeral_1> < +/-> <roman_numeral_2>    (Eg: main V + III)
 
 
 ASSUMPTIONS/LIMITATIONS:
