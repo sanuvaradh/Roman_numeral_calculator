@@ -20,7 +20,7 @@ The environment used for development and validation is as follows:
 
 INVOKING THE CALCULATOR:
 
-To build this code, copy this entire Git repository to a local folder. Then do the following:
+To build this code, copy this entire Git repository. Then do the following:
 
 autoreconf --install
 ./configure
